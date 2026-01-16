@@ -1,159 +1,367 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hyoungho Park</title>
+    <meta name="author" content="Hyoungho Park" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
-  <title>Hyoungho Park</title>
-  
-  <meta name="author" content="Hyoungho Park">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="profile_image.jpg" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  
-</head>
+    <link rel="shortcut icon" href="images/profile_image.jpg" type="image/x-icon" />
 
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Hyoungho Park</name>
-              </p>
-              <p>
-                I am a researcher at the <a href="https://fair.kaist.ac.kr/"><strong>FAIR Lab</strong></a> at <a href="https://www.kaist.ac.kr/"><strong>KAIST</strong></a>, where I am advised by <a href="https://fair.kaist.ac.kr/people/instructor/">Hyondong Oh</a>. I received my degree in <strong>Mechanical Engineering</strong> from <a href="https://www.unist.ac.kr/"><strong>UNIST</strong></a> in 2026.
-              </p>
-              <p style="text-align:center">
-                <a href="gudgh1630@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/Park_HyoungHo_CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://github.com/qwertyBBeers">Github</a> &nbsp/&nbsp
-                <a href="www.linkedin.com/in/hmue">LinkedIn</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/profile_image.jpg"><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/profile_image.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+    <!-- Inter font (same vibe as the reference page) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I am interested in applying VLM/VLA to autonomous navigation, specifically for Gas Source Localization (GSL) in hazardous environments.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+    <!-- Normalize -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+    />
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/semantic_gsl.png' width="160" style="border-radius:10px">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="[Link to PDF or Project Page]">
-                <papertitle>Semantic-GSL: Semantically Guided Gas Source Localization With Vision-Language Models</papertitle>
-              </a>
-              <br>
-              <strong>[Your Name]</strong>, [Co-author Name], [Advisor Name]
-              <br>
-              <em>In Preparation (or Submitted to ICRA/IROS 2025)</em>
-              <br>
-              <p>
-                This paper proposes an Active Sensing framework that integrates VLMs to interpret visual information and linguistic context. We demonstrate that this semantic approach significantly improves the efficiency of gas source localization compared to traditional methods.
-              </p>
-            </td>
-          </tr>
+    <style>
+      :root {
+        --maxw: 800px;
+      }
 
-        </tbody></table>
+      body {
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        line-height: 1.55;
+        color: #111;
+        background: #fff;
+      }
 
+      main {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 0 20px;
+      }
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Projects & Experience</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/metatwin.jpg' width="160" style="border-radius:10px">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>MetatwinBot: Service Robot for the Elderly</papertitle>
-              <br>
-              <em>Core Researcher & Developer</em>
-              <br>
-              <p>
-                Developed an autonomous service robot for the elderly and mobility-impaired. 
-                Integrated <strong>Digital Twin</strong> technology to build a real-time monitoring system and implemented autonomous navigation algorithms for safe indoor mobility.
-              </p>
-            </td>
-          </tr>
+      section {
+        margin: 0;
+      }
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/startup.jpg' width="160" style="border-radius:10px">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Startup Projects: HairD & GiftyBot</papertitle>
-              <br>
-              <em>Team Leader & Engineer</em>
-              <br>
-              <p>
-                Led a startup team to develop <strong>'HairD'</strong> (an assistant robot for hair salons) and <strong>'GiftyBot'</strong> (a delivery robot). 
-                Conducted field testing in real-world environments, optimized mechanical design, and developed driving control algorithms.
-              </p>
-            </td>
-          </tr>
+      h1 {
+        font-size: 2.2rem;
+        margin: 0 0 0.2em 0;
+        letter-spacing: -0.02em;
+      }
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/teaching.jpg' width="160" style="border-radius:10px">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Robotics Instructor</papertitle>
-              <br>
-              <em>DORO & Ansan Youth Foundation</em>
-              <br>
-              <p>
-                Taught robotics engineering and programming to K-12 students. Focused on making complex engineering concepts accessible and fostering the next generation of engineers.
-              </p>
-            </td>
-          </tr>
+      h2 {
+        margin: 2.2em 0 0.6em 0;
+        font-size: 1.4rem;
+        letter-spacing: -0.01em;
+      }
 
-        </tbody></table>
+      p {
+        margin: 0.8em 0;
+      }
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Source code from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a>.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+      .spacer-4 {
+        height: 4em;
+      }
+      .spacer-1 {
+        height: 1em;
+      }
+      .spacer-2 {
+        height: 2em;
+      }
 
-      </td>
-    </tr>
-  </table>
-</body>
+      /* Top intro layout */
+      .top {
+        display: flex;
+        align-items: flex-start;
+        gap: 2em 1.5em;
+        flex-wrap: wrap-reverse;
+      }
+
+      .top-text {
+        flex-grow: 1;
+        flex-basis: 20em;
+      }
+
+      .top-photo {
+        display: block;
+      }
+
+      .subtitle {
+        margin-top: -0.5em;
+        font-size: 0.95em;
+        opacity: 0.85;
+      }
+
+      .profile-img {
+        width: 12em;           /* like the reference page */
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 8%;
+        display: block;
+      }
+
+      .links {
+        margin-top: 0.8em;
+      }
+
+      /* Paper list styling (simple, clean) */
+      ul#paper-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 1em 0 0 0;
+      }
+
+      li.paper {
+        display: flex;
+        gap: 1.2em;
+        margin: 1.2em 0;
+        padding: 0.2em 0;
+        align-items: flex-start;
+      }
+
+      .paper-visual {
+        width: 160px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+        flex: 0 0 auto;
+      }
+
+      .paper-textual h3 {
+        margin: 0;
+        font-size: 1.05rem;
+        letter-spacing: -0.01em;
+      }
+
+      .paper-textual em {
+        opacity: 0.7;
+      }
+
+      /* "recent-only" toggle like the reference */
+      #paper-list[data-show-recent="false"] .paper:not(.paper-recent) {
+        display: none;
+      }
+
+      /* Small footer */
+      .footer-note {
+        color: #777;
+      }
+
+      /* Mobile: stack paper thumbnail above text if desired */
+      @media (max-width: 520px) {
+        li.paper {
+          flex-direction: column;
+        }
+        .paper-visual {
+          width: 100%;
+          height: auto;
+          aspect-ratio: 16 / 9;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="spacer-4"></div>
+
+      <!-- Top section (Chung Min Kim style) -->
+      <section class="top">
+        <div class="top-text">
+          <h1>Hyoungho Park</h1>
+
+          <p class="subtitle">
+            Robotics researcher working on VLM/VLA for autonomous navigation and Gas Source Localization (GSL).
+          </p>
+
+          <p>
+            I am a researcher at the <a href="https://fair.kaist.ac.kr/">FAIR Lab</a> at
+            <a href="https://www.kaist.ac.kr/">KAIST</a>, where I am advised by
+            <a href="https://fair.kaist.ac.kr/people/instructor/">Hyondong Oh</a>.
+            I received my degree in <span style="font-weight:600;">Mechanical Engineering</span> from
+            <a href="https://www.unist.ac.kr/">UNIST</a> in 2026.
+          </p>
+
+          <p class="links">
+            <a href="mailto:gudgh1630@gmail.com">Email</a>
+            &nbsp;/&nbsp;
+            <a href="data/Park_HyoungHo_CV.pdf">CV</a>
+            &nbsp;/&nbsp;
+            <a href="https://github.com/qwertyBBeers">Github</a>
+            &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/hmue">LinkedIn</a>
+          </p>
+        </div>
+
+        <div class="top-photo">
+          <a href="images/profile_image.jpg">
+            <img
+              src="images/profile_image.jpg"
+              alt="A photo of Hyoungho Park"
+              class="profile-img"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- Research -->
+      <section>
+        <h2>Research</h2>
+        <p>
+          I am interested in applying VLM/VLA to autonomous navigation, specifically for Gas Source Localization (GSL) in hazardous environments.
+        </p>
+
+        <ul id="paper-list" data-show-recent="false"></ul>
+        <p style="margin-top: 0.6em;">
+          [ <a href="#" onclick="toggleRecentPapers(event)">Show older papers</a> ]
+        </p>
+
+        <script>
+          // Edit this list freely.
+          const papers = [
+            {
+              previewSrc: "images/semantic_gsl.png",
+              title: "Semantic-GSL: Semantically Guided Gas Source Localization With Vision-Language Models",
+              authors: ["Hyoungho Park", "Co-author Name", "Advisor Name"],
+              conference: "In Preparation",
+              links: [
+                { text: "Paper", url: "#" },
+                { text: "Code", url: "#" }
+              ],
+              summary:
+                "Active sensing framework integrating VLMs as semantic priors for faster and more accurate indoor gas source localization.",
+              recent: true
+            }
+          ];
+
+          function generatePaperList() {
+            const paperList = document.getElementById("paper-list");
+            papers.forEach((paper) => {
+              const li = document.createElement("li");
+              li.classList.add("paper");
+              if (paper.recent) li.classList.add("paper-recent");
+
+              const visualHtml = paper.previewSrc.endsWith(".mp4")
+                ? `<video class="paper-visual" src="${paper.previewSrc}" loop muted autoplay playsinline></video>`
+                : `<img class="paper-visual" src="${paper.previewSrc}" alt="${paper.title}">`;
+
+              const authorsHtml = paper.authors
+                .map((author) => {
+                  const names = author.split(" ");
+                  const firstName = names.slice(0, -1).join("&nbsp;");
+                  const lastName = names[names.length - 1];
+                  const formattedName = `${firstName}&nbsp;${lastName}`;
+                  return author.startsWith("Hyoungho Park")
+                    ? `<strong>${formattedName}</strong>`
+                    : formattedName;
+                })
+                .join(", ");
+
+              const linksHtml = paper.links
+                .map((link) => `<a href="${link.url}">${link.text}</a>`)
+                .join(" / ");
+
+              li.innerHTML = `
+                ${visualHtml}
+                <div class="paper-textual">
+                  <h3>${paper.title}</h3>
+                  <div style="height:0.15em"></div>
+                  ${authorsHtml}.
+                  <span style="font-weight:450"> ${paper.conference}.</span>
+                  <div style="height:0.35em"></div>
+                  ${linksHtml}
+                  <div style="height:0.35em"></div>
+                  <em>${paper.summary}</em>
+                </div>
+              `;
+
+              paperList.appendChild(li);
+            });
+          }
+
+          document.addEventListener("DOMContentLoaded", generatePaperList);
+
+          function toggleRecentPapers(event) {
+            event.preventDefault();
+            const paperList = document.getElementById("paper-list");
+            const showRecent = paperList.dataset.showRecent === "true";
+            paperList.dataset.showRecent = (!showRecent).toString();
+            event.target.textContent = showRecent
+              ? "Show older papers"
+              : "Hide older papers";
+          }
+        </script>
+      </section>
+
+      <!-- Projects & Experience (your original content, lightly adapted) -->
+      <section>
+        <h2>Projects &amp; Experience</h2>
+
+        <ul style="list-style:none; padding-left:0; margin:1em 0 0 0;">
+          <li class="paper">
+            <img src="images/metatwin.jpg" alt="MetatwinBot" class="paper-visual" />
+            <div class="paper-textual">
+              <h3>MetatwinBot: Service Robot for the Elderly</h3>
+              <div style="height:0.15em"></div>
+              <span style="font-weight:450">Core Researcher &amp; Developer.</span>
+              <div style="height:0.35em"></div>
+              <em style="opacity:0.85;">
+                Developed an autonomous service robot for the elderly and mobility-impaired.
+                Integrated digital twin monitoring and implemented safe indoor navigation.
+              </em>
+            </div>
+          </li>
+
+          <li class="paper">
+            <img src="images/startup.jpg" alt="Startup projects" class="paper-visual" />
+            <div class="paper-textual">
+              <h3>Startup Projects: HairD &amp; GiftyBot</h3>
+              <div style="height:0.15em"></div>
+              <span style="font-weight:450">Team Leader &amp; Engineer.</span>
+              <div style="height:0.35em"></div>
+              <em style="opacity:0.85;">
+                Led a startup team to develop assistant/delivery robots, conducted field tests,
+                optimized mechanical design, and developed driving control algorithms.
+              </em>
+            </div>
+          </li>
+
+          <li class="paper">
+            <img src="images/teaching.jpg" alt="Robotics instructor" class="paper-visual" />
+            <div class="paper-textual">
+              <h3>Robotics Instructor</h3>
+              <div style="height:0.15em"></div>
+              <span style="font-weight:450">DORO &amp; Ansan Youth Foundation.</span>
+              <div style="height:0.35em"></div>
+              <em style="opacity:0.85;">
+                Taught robotics engineering and programming to K-12 students with a focus on
+                accessible explanations and hands-on learning.
+              </em>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="spacer-1"></div>
+
+      <section>
+        <em class="footer-note">
+          Website design borrows from <a href="https://jonbarron.info/">Jon Barron</a>.
+        </em>
+      </section>
+
+      <div class="spacer-2"></div>
+    </main>
+  </body>
 </html>
